@@ -1157,7 +1157,3 @@ if(flag):
     print("COLISION DETECTED!!!!")
 else: print("No colisions detected")
 #plt.show()
-
-""" 
-#SHIFT+ALT+A
-"""
