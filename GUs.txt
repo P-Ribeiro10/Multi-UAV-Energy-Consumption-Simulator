@@ -1,0 +1,12 @@
+Number of Groups:
+1
+Number of GUs:
+5
+Number of GUs in each Group:
+5,
+Positions(x,y,z), Traffic(Mbit/s):
+19,62,0,36.0
+85,46,0,27.0
+86,53,0,19.0
+2,9,0,14.0
+52,88,0,23.0
