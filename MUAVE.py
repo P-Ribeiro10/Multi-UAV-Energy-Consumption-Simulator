@@ -781,10 +781,14 @@ for n in range(int(nGroups)):
 
         #Write Circular Trajectory (coords at every second for 1 hour)
         T_Circular=2*np.pi*r/minVelocity[0] #Time to complete a full circle
+        
+        print("Circular Time: ", T_Circular)
+        
+        A_velocity = 2 * np.pi / T_Circular # Angular velocity
 
         time=120
         
-        theta = np.linspace(30, time*2*np.pi/T_Circular, time) #Angle for each timestep 1s
+        theta = np.linspace(30, time, time-29)*A_velocity # Angle for each timestep 1s
 
         x = idealPos[0] + r * np.cos(theta)
         y = idealPos[1] + r * np.sin(theta)
