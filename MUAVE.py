@@ -31,7 +31,7 @@ k=0.1
 V0=4.03
 delta=0.012
 s=0.05
-g=9.8 #gravitacional force approximation
+g=9.8 #gravitational force approximation
 
 P0=(delta/8)*rho*s*A*math.pow(omega,3)*math.pow(R,3)
 Pi=(1+k)*(math.pow(W,3/2)/math.sqrt(2*rho*A))
