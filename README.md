@@ -3,4 +3,6 @@ The Multi-UAV Energy Consumption (MUAVE) Simulator is a Python-based simulator t
 
 As input, it receives a .txt file named "GUs.txt" that identifies the number of groups of GUs, the total number of GUs, their spatial positions, and their traffic demand.
 
-As output, it provides the energy consumption per hour of the FAPs following 2 state-of-the-art algorithms trajectories and an energy consumption reduction value when compared to a hovering state.
+As output, it provides the energy consumption per hour of the FAPs following 2 state-of-the-art algorithms (SUPPLY and EREP) trajectories and an energy consumption reduction value when compared to a hovering state.
+
+MUAVE_refactored.py is a new version containing only SUPPLY but with improvements including a new method to solve intersection areas overlap and refactored code.
